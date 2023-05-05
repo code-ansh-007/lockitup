@@ -65,7 +65,7 @@ const Services = () => {
           {!showF1 ? (
             <span className="">Door to Door pickup service</span>
           ) : (
-            <span className="text-lg font-normal">
+            <span className="text-sm font-normal">
               We provide door to door pickup and drop service, we collect your
               stuff with relevant transport
             </span>
@@ -80,7 +80,7 @@ const Services = () => {
           {!showF2 ? (
             <span className="text-right">Secure storage space</span>
           ) : (
-            <span className="text-lg text-right font-normal">
+            <span className="text-sm text-right font-normal">
               The safety of your belongings is of utmost priority to us, so we
               enforce strict security rules
             </span>
@@ -97,7 +97,7 @@ const Services = () => {
           {!showF3 ? (
             <span className="">Unique ID for every luggage</span>
           ) : (
-            <span className="text-lg font-normal">
+            <span className="text-sm font-normal">
               Each of our luggage units is given a unique ID(QR code) for easy
               retrieval and management purposes
             </span>
