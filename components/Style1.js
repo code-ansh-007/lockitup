@@ -14,33 +14,33 @@ const Style1 = () => {
           src={circle}
           width={180}
           alt="circle pic"
-          className="absolute top-24 left-[90px] animate-spin-slow"
+          className="absolute top-24 left-[80px] animate-spin-slow"
         />
         <Image
           src={bag}
           width={100}
           alt="bag-pic"
-          className="absolute top-32 left-[-10px]"
+          className="absolute top-32 left-[-15px]"
         />
         <Image
           src={trolley}
           width={100}
           alt="trolley-pic"
-          className="absolute left-32"
+          className="absolute left-32 top-[-5px]"
         />
         <Image
           src={kitchen}
           width={100}
           alt="kitchen-pic"
-          className="absolute top-32 left-[270px]"
+          className="absolute top-32 left-[255px]"
         />
         <Image
           src={shirts}
-          width={80}
+          width={75}
           alt="shirt pic"
           className="absolute top-[280px] left-[135px]"
         />
-        <span className="flex flex-col items-center absolute top-[135px] text-xl font-bold left-[140px]">
+        <span className="flex flex-col items-center absolute top-[135px] text-xl font-bold left-[130px]">
           <span>All</span>
           <span className="text-4xl text-orange-500">Your</span>
           <span>Stuff</span>

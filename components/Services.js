@@ -59,7 +59,7 @@ const Services = () => {
           // initial={{ x: "100vw" }}
           animate={animation1}
           onClick={() => setShowF1(!showF1)}
-          className="bg-gradient-to-l text-white text-4xl font-bold from-orange-300 to-orange-600 flex items-center p-5 rounded-l-2xl space-x-3"
+          className="bg-gradient-to-l text-white text-3xl font-bold from-orange-300 to-orange-600 flex items-center p-5 rounded-l-2xl space-x-12"
         >
           <Image src={pickup} width={100} alt="pickup service" />
           {!showF1 ? (
@@ -75,7 +75,7 @@ const Services = () => {
         <motion.div
           animate={animation2}
           onClick={() => setShowF2(!showF2)}
-          className="bg-gradient-to-r text-white text-4xl font-bold from-yellow-300 to-yellow-600 flex items-center p-5 rounded-r-2xl space-x-12"
+          className="bg-gradient-to-r text-white text-3xl font-bold from-yellow-300 to-yellow-600 flex items-center p-5 rounded-r-2xl space-x-12"
         >
           {!showF2 ? (
             <span className="text-right">Secure storage space</span>
@@ -91,7 +91,7 @@ const Services = () => {
         <motion.div
           animate={animation1}
           onClick={() => setShowF3(!showF3)}
-          className="bg-gradient-to-l text-white text-4xl font-bold from-pink-300 to-pink-600 flex items-center p-5 rounded-l-2xl space-x-3"
+          className="bg-gradient-to-l text-white text-3xl font-bold from-pink-300 to-pink-600 flex items-center p-5 rounded-l-2xl space-x-7"
         >
           <Image src={qr} width={100} alt="qr code feature" />
           {!showF3 ? (
