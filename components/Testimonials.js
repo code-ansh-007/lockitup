@@ -80,7 +80,7 @@ export default function Testimonials() {
               />
               <span className="text-lg font-semibold">{name2}</span>
               <span className="text-center text-sm">
-                "From pickup to baggage retrieval, everything went smooth"
+                "They offer top-notch service at an affordable price."
               </span>
             </div>
           </div>
@@ -96,7 +96,8 @@ export default function Testimonials() {
               />
               <span className="text-lg font-semibold">{name3}</span>
               <span className="text-center text-sm">
-                "From pickup to baggage retrieval, everything went smooth"
+                "The luggage was in pristine condition when i returned from
+                home. Thanks!"
               </span>
             </div>
           </div>
