@@ -12,7 +12,7 @@ const Style1 = () => {
       <div className="relative mt-10 -z-10">
         <Image
           src={circle}
-          width={180}
+          width={165}
           alt="circle pic"
           className="absolute top-24 left-[80px] animate-spin-slow"
         />
@@ -20,29 +20,29 @@ const Style1 = () => {
           src={bag}
           width={100}
           alt="bag-pic"
-          className="absolute top-32 left-[-15px]"
+          className="absolute top-32 left-[-16px]"
         />
         <Image
           src={trolley}
           width={100}
           alt="trolley-pic"
-          className="absolute left-32 top-[-5px]"
+          className="absolute left-[120px] top-[-3px]"
         />
         <Image
           src={kitchen}
           width={100}
           alt="kitchen-pic"
-          className="absolute top-32 left-[255px]"
+          className="absolute top-32 left-[240px]"
         />
         <Image
           src={shirts}
           width={75}
           alt="shirt pic"
-          className="absolute top-[280px] left-[135px]"
+          className="absolute top-[260px] left-[125px]"
         />
         <span className="flex flex-col items-center absolute top-[135px] text-xl font-bold left-[130px]">
           <span>All</span>
-          <span className="text-4xl text-orange-500">Your</span>
+          <span className="text-3xl text-orange-500">Your</span>
           <span>Stuff</span>
         </span>
       </div>
