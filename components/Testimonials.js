@@ -50,7 +50,7 @@ export default function Testimonials() {
           autoplay={true}
           autoplayDelay={3000}
           loop={true}
-          className="rounded-xl"
+          className="rounded-xl -z-10"
         >
           {/* user 1 */}
           <div className=" h-full flex flex-col items-center justify-center w-full">

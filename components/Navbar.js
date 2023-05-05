@@ -74,7 +74,7 @@ const Navbar = () => {
                   animate={{ x: 0 }}
                   transition={{ type: "spring", damping: 20 }}
                   className=" font-semibold space-x-8
-            justify-evenly h-screen fixed flex flex-col top-0 right-0 pl-10 w-[330px] bg-black bg-opacity-10 backdrop-blur-lg z-50 text-gray-700"
+            justify-evenly h-screen fixed flex flex-col top-0 right-0 pl-10 w-[330px] bg-black bg-opacity-10 backdrop-blur-lg z-50 text-gray-900"
                 >
                   <div
                     className="absolute top-4 right-2 bg-transparent"
