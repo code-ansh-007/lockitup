@@ -75,7 +75,7 @@ const Services = () => {
         <motion.div
           animate={animation2}
           onClick={() => setShowF2(!showF2)}
-          className="bg-gradient-to-r text-white text-3xl font-bold from-yellow-300 to-yellow-600 flex items-center p-5 rounded-r-2xl space-x-12"
+          className="bg-gradient-to-r text-white text-3xl font-bold from-yellow-400 to-yellow-900 flex items-center p-5 rounded-r-2xl space-x-12"
         >
           {!showF2 ? (
             <span className="text-right">Secure storage space</span>

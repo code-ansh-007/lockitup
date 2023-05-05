@@ -28,9 +28,9 @@ const WhyUs = () => {
           ) : (
             <div
               onClick={() => setShowWhy1(!showWhy1)}
-              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-green-400 to-green-700  p-3 rounded-xl"
+              className="flex flex-col space-y-2 items-center text-center justify-center bg-gradient-to-r from-green-400 to-green-700  p-3 rounded-xl"
             >
-              <span className="text-normal font-normal text-white">
+              <span className="text-sm font-normal text-white">
                 Our affordable prices are a result of our company's efficient
                 space management strategies.
               </span>
@@ -47,9 +47,9 @@ const WhyUs = () => {
           ) : (
             <div
               onClick={() => setShowWhy2(!showWhy2)}
-              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-blue-400 to-blue-700  p-3 rounded-xl"
+              className="flex flex-col space-y-2 items-center text-center justify-center bg-gradient-to-r from-blue-400 to-blue-700  p-3 rounded-xl"
             >
-              <span className="text-normal font-normal text-white">
+              <span className="text-sm font-normal text-white">
                 We use CCTV technology to enhance security in addition to manual
                 inspections of storage areas.
               </span>
@@ -66,9 +66,9 @@ const WhyUs = () => {
           ) : (
             <div
               onClick={() => setShowWhy3(!showWhy3)}
-              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-orange-300 to-orange-600  p-3 rounded-xl"
+              className="flex flex-col space-y-2 justify-center text-center items-center bg-gradient-to-r from-orange-300 to-orange-600  p-3 rounded-xl"
             >
-              <span className="text-normal font-normal text-white">
+              <span className="text-sm font-normal text-white">
                 Our staff's expertise ensures a hassle-free pickup and retrieval
                 process for your belongings.
               </span>
@@ -85,9 +85,9 @@ const WhyUs = () => {
           ) : (
             <div
               onClick={() => setShowWhy4(!showWhy4)}
-              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-pink-300 to-pink-600  p-3 rounded-xl"
+              className="flex flex-col justify-center text-center space-y-2 items-center bg-gradient-to-r from-pink-300 to-pink-600  p-3 rounded-xl"
             >
-              <span className="text-normal font-normal text-white">
+              <span className="text-sm font-normal text-white">
                 We prioritize care by storing your belongings in safe, hygienic
                 environments to maintain their pristine condition.
               </span>
