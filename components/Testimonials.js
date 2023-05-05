@@ -44,7 +44,7 @@ export default function Testimonials() {
           className="rounded-tl-2xl  rounded-br-2xl bg-gradient-to-r from-blue-100 to-blue-800 p-4"
         >
           {/* user 1 */}
-          <div className=" h-[300px] flex flex-col items-center justify-center w-[300px] ml-5">
+          <div className=" h-[300px] flex flex-col items-center justify-center w-[300px] ml-[5vw]">
             <div className="bg-white bg-opacity-30 shadow-xl flex flex-col items-center p-8 rounded-xl space-y-2">
               <Image
                 src={pic1}
@@ -60,7 +60,7 @@ export default function Testimonials() {
             </div>
           </div>
           {/* user 2 */}
-          <div className=" h-[300px] flex flex-col items-center justify-center w-[300px] ml-[50px]">
+          <div className=" h-[300px] flex flex-col items-center justify-center w-[300px] ml-[12vw]">
             <div className="bg-white bg-opacity-30 shadow-xl flex flex-col items-center p-8 rounded-xl space-y-2">
               <Image
                 src={pic2}
@@ -77,7 +77,7 @@ export default function Testimonials() {
             </div>
           </div>
           {/* user 3 */}
-          <div className=" h-[300px] flex flex-col items-center justify-center w-[300px] ml-[80px]">
+          <div className=" h-[300px] flex flex-col items-center justify-center w-[300px] ml-[18vw]">
             <div className="bg-white bg-opacity-30 shadow-xl flex flex-col items-center p-8 rounded-xl space-y-2">
               <Image
                 src={pic3}
