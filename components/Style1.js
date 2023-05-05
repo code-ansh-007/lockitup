@@ -18,9 +18,9 @@ const Style1 = () => {
         />
         <Image
           src={bag}
-          width={100}
+          width={90}
           alt="bag-pic"
-          className="absolute top-32 left-[-16px]"
+          className="absolute top-32 left-[-5px]"
         />
         <Image
           src={trolley}
@@ -30,7 +30,7 @@ const Style1 = () => {
         />
         <Image
           src={kitchen}
-          width={100}
+          width={95}
           alt="kitchen-pic"
           className="absolute top-32 left-[240px]"
         />
@@ -40,7 +40,7 @@ const Style1 = () => {
           alt="shirt pic"
           className="absolute top-[260px] left-[125px]"
         />
-        <span className="flex flex-col items-center absolute top-[135px] text-xl font-bold left-[130px]">
+        <span className="flex flex-col items-center absolute top-[130px] text-xl font-bold left-[130px]">
           <span>All</span>
           <span className="text-3xl text-orange-500">Your</span>
           <span>Stuff</span>
