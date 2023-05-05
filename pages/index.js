@@ -5,6 +5,7 @@ import up from "@/assets/up.png";
 import Image from "next/image";
 import WhyUs from "@/components/WhyUs";
 import { useEffect, useState } from "react";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   // ? showing button after a certain scroll point in the y axis
@@ -12,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      if (scrollY > 500) {
+      if (scrollY > 700) {
         setShowButtons(true);
       } else {
         setShowButtons(false);
@@ -37,6 +38,7 @@ export default function Home() {
         <Style1 />
         <Services />
         <WhyUs />
+        <Testimonials />
         {showButtons && (
           <div className="fixed bottom-[90px] mb-5 flex items-center justify-between w-full">
             <button className=" bg-gradient-to-r p-2 text-2xl text-white font-bold rounded-lg from-green-400 to-green-700">

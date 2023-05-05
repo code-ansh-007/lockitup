@@ -50,7 +50,7 @@ const Services = () => {
 
   return (
     <>
-      <main ref={ref} className="mt-[450px] flex flex-col space-y-10">
+      <main ref={ref} className="mt-[450px] flex flex-col space-y-5">
         <span className="text-3xl font-extrabold text-center">
           <span>Our Services</span>
         </span>
