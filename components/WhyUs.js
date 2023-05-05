@@ -12,7 +12,7 @@ const WhyUs = () => {
   const [showWhy4, setShowWhy4] = useState(false);
   return (
     <>
-      <main className="flex flex-col mt-10">
+      <main className="flex flex-col mt-10 px-6">
         <span className="text-3xl font-extrabold text-center">
           <span>Why choose us ?</span>
         </span>

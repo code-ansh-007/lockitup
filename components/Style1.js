@@ -9,7 +9,7 @@ import Image from "next/image";
 const Style1 = () => {
   return (
     <>
-      <div className="relative mt-10 -z-10">
+      <div className="relative mt-10 -z-10 mx-6">
         <Image
           src={circle}
           width={165}

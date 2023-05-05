@@ -33,18 +33,18 @@ export default function Home() {
 
   return (
     <>
-      <main className="mt-24 px-6 mb-[80px] overflow-hidden">
+      <main className="mt-24 mb-[80px] overflow-hidden">
         <Banner />
         <Style1 />
         <Services />
         <WhyUs />
         <Testimonials />
         {showButtons && (
-          <div className="fixed bottom-[90px] mb-5 flex items-center justify-between w-full">
+          <div className="fixed bottom-[90px] mb-5 flex items-center justify-between w-full px-6">
             <button className=" bg-gradient-to-r p-2 text-2xl text-white font-bold rounded-lg from-green-400 to-green-700">
               Book Now
             </button>
-            <button onClick={handleUpScroll} className="mr-16">
+            <button onClick={handleUpScroll} className="mr-2">
               <Image src={up} width={50} alt="up arrow" />
             </button>
           </div>

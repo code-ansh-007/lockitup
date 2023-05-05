@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <main className="bg-gradient-to-r from-blue-300 to-blue-900 text-white p-5 py-6 rounded-br-2xl rounded-tl-2xl flex flex-col space-y-8">
+      <main className="bg-gradient-to-r from-blue-300 to-blue-900 text-white mx-6 p-5 py-6 rounded-br-2xl rounded-tl-2xl flex flex-col space-y-8">
         <span className="text-4xl font-bold">
           We'll keep it{" "}
           <span className="border-b-4 border-orange-400">safe</span> for you ;)
