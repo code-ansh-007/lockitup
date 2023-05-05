@@ -23,7 +23,7 @@ const WhyUs = () => {
               className="flex flex-col space-y-2 items-center bg-gradient-to-r from-green-400 to-green-700  p-3 rounded-xl"
             >
               <Image src={reduction} width={100} alt="money-pic" />
-              <span className="text-2xl font-bold text-white">Affordable</span>
+              <span className="text-xl font-bold text-white">Affordable</span>
             </div>
           ) : (
             <div
@@ -42,7 +42,7 @@ const WhyUs = () => {
               className="flex flex-col space-y-2 items-center bg-gradient-to-r from-blue-400 to-blue-700  p-3 rounded-xl"
             >
               <Image src={cctv} width={100} alt="cctv camera pic" />
-              <span className="text-2xl font-bold text-white">Security</span>
+              <span className="text-xl font-bold text-white">Security</span>
             </div>
           ) : (
             <div
@@ -61,7 +61,7 @@ const WhyUs = () => {
               className="flex flex-col space-y-2 items-center bg-gradient-to-r from-orange-300 to-orange-600  p-3 rounded-xl"
             >
               <Image src={hassle} width={100} alt="hassle free transport pic" />
-              <span className="text-2xl font-bold text-white">Hassle Free</span>
+              <span className="text-xl font-bold text-white">Hassle Free</span>
             </div>
           ) : (
             <div
@@ -80,7 +80,7 @@ const WhyUs = () => {
               className="flex flex-col space-y-2 items-center bg-gradient-to-r from-pink-300 to-pink-600  p-3 rounded-xl"
             >
               <Image src={care} width={100} alt="care of luggage pic" />
-              <span className="text-2xl font-bold text-white">Care</span>
+              <span className="text-xl font-bold text-white">Care</span>
             </div>
           ) : (
             <div
