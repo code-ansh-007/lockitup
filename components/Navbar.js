@@ -6,6 +6,7 @@ import { AiFillHome, AiOutlineMenu } from "react-icons/ai";
 import Link from "next/link";
 import { AiFillDollarCircle } from "react-icons/ai";
 import { BiSupport } from "react-icons/bi";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -111,13 +112,18 @@ const Navbar = () => {
                   </li>
                   <li className="flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out">
                     <BiSupport className="text-4xl" />
-                    <Link
-                      onClick={() => setOpenMenu(false)}
-                      href="/events"
+                    {/* <Link onClick={() => setOpenMenu(false)} href="/events">
+                      SUPPORT
+                    </Link> */}
+                    <ScrollLink
                       className="font-extrabold"
+                      onClick={() => setOpenMenu(false)}
+                      to="support"
+                      smooth={true}
+                      duration={1000}
                     >
                       SUPPORT
-                    </Link>
+                    </ScrollLink>
                   </li>
 
                   <li className="bg-transparent flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out">

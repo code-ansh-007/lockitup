@@ -6,6 +6,7 @@ import Image from "next/image";
 import WhyUs from "@/components/WhyUs";
 import { useEffect, useState } from "react";
 import Testimonials from "@/components/Testimonials";
+import { Support } from "@/components/Support";
 
 export default function Home() {
   // ? showing button after a certain scroll point in the y axis
@@ -40,10 +41,13 @@ export default function Home() {
         </div>
         <Services />
         <WhyUs />
-        <Testimonials />
+        <div>
+          <Testimonials />
+          <Support />
+        </div>
         <button
           onClick={handleUpScroll}
-          className="mr-2 fixed bottom-[110px] right-[20px] sm:right-[50px]"
+          className="mr-2 fixed bottom-[140px] right-[18px] sm:right-[50px]"
         >
           {showButton && <Image src={up} width={50} alt="up arrow" />}
         </button>
