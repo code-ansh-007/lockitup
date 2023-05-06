@@ -10,7 +10,7 @@ function Footer() {
   return (
     <main className="flex text-sm flex-col space-y-2 items-center space-x-4 justify-center p-2 border-t border-gray-400 bg-gray-200">
       {/* contact and locations section section */}
-      <div className="flex items-start space-x-20 my-4">
+      <div className="flex items-start space-x-10 my-4">
         <div className="flex flex-col items-center">
           <span className="text-lg underline">Contact No.s</span>
           <div className="flex flex-col text-sm">
