@@ -21,7 +21,7 @@ export default function Testimonials() {
     <>
       <main className="mt-10 flex flex-col items-center space-y-5 px-5">
         {" "}
-        <span className="text-3xl font-extrabold text-center">
+        <span className="text-3xl font-extrabold text-center text-gray-700">
           <span>Testimonials</span>
         </span>{" "}
         <Carousel
@@ -50,7 +50,7 @@ export default function Testimonials() {
           autoplay={true}
           autoplayDelay={3000}
           loop={true}
-          className="rounded-xl -z-10"
+          className="rounded-xl -z-10 pb-10"
         >
           {/* user 1 */}
           <div className=" h-full flex flex-col items-center justify-center w-full">
@@ -96,7 +96,8 @@ export default function Testimonials() {
               />
               <span className="text-lg font-semibold">{name3}</span>
               <span className="text-center text-sm">
-                "The luggage was in pristine condition when i returned from
+                "The luggage was in pristine condition when i returned from{" "}
+                <br />
                 home. Thanks!"
               </span>
             </div>

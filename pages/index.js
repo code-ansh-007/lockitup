@@ -33,9 +33,9 @@ export default function Home() {
 
   return (
     <>
-      <main className="mt-24 mb-[80px] overflow-hidden">
-        <div className="">
-          <Banner />
+      <main className="mt-24 mb-[80px] overflow-hidden sm:flex flex-col items-center">
+        <Banner />
+        <div className="sm:hidden">
           <Style1 />
         </div>
         <Services />

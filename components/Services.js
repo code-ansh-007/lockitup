@@ -50,8 +50,11 @@ const Services = () => {
 
   return (
     <>
-      <main ref={ref} className="mt-[450px] flex flex-col space-y-5 px-6 sm:">
-        <span className="text-3xl font-extrabold text-center">
+      <main
+        ref={ref}
+        className="mt-[450px] sm:mt-20 flex flex-col space-y-5 px-6 sm:w-[500px]"
+      >
+        <span className="text-3xl font-extrabold text-center text-gray-700">
           <span>Our Services</span>
         </span>
         {/* feature one */}

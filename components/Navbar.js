@@ -38,7 +38,7 @@ const Navbar = () => {
           <Link href="/">
             <div>
               <span className=" text-orange-500 text-2xl sm:px-2 py-1 font-bold">
-                <span className="text-black">lockIt</span>Up
+                <span className="text-black">LockIt</span>Up
               </span>
             </div>
           </Link>
