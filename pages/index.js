@@ -9,14 +9,14 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   // ? showing button after a certain scroll point in the y axis
-  const [showButtons, setShowButtons] = useState(false);
+  const [showButton, setShowButton] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       if (scrollY > 700) {
-        setShowButtons(true);
+        setShowButton(true);
       } else {
-        setShowButtons(false);
+        setShowButton(false);
       }
     };
 
@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="mt-24 mb-[80px] overflow-hidden sm:flex flex-col items-center">
+      <main className="mt-24 mb-[80px] sm:mb-0 overflow-hidden sm:flex flex-col items-center">
         <Banner />
         <div className="sm:hidden">
           <Style1 />
@@ -41,16 +41,12 @@ export default function Home() {
         <Services />
         <WhyUs />
         <Testimonials />
-        {showButtons && (
-          <div className="fixed bottom-[90px] mb-5 flex items-center justify-between w-full px-6">
-            <button className=" bg-gradient-to-r p-2 text-2xl text-white font-bold rounded-lg from-green-400 to-green-700">
-              Book Now
-            </button>
-            <button onClick={handleUpScroll} className="mr-2">
-              <Image src={up} width={50} alt="up arrow" />
-            </button>
-          </div>
-        )}
+        <button
+          onClick={handleUpScroll}
+          className="mr-2 fixed bottom-[110px] right-[20px] sm:right-[50px]"
+        >
+          {showButton && <Image src={up} width={50} alt="up arrow" />}
+        </button>
       </main>
     </>
   );

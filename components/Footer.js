@@ -8,7 +8,7 @@ function Footer() {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <main className="flex text-sm flex-col space-y-2 items-center mt-4 space-x-4 justify-center p-2 border-t border-gray-400">
+    <main className="flex text-sm flex-col space-y-2 items-center space-x-4 justify-center p-2 border-t border-gray-400">
       <div className="">Made with 💌 by Ansh Pradhan</div>
       <div className="underline">Visit Social Links</div>
       <div className="flex items-center space-x-5">

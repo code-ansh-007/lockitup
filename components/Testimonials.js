@@ -33,7 +33,7 @@ export default function Testimonials() {
               onClick={handlePrev}
               className="!absolute top-2/4 -translate-y-2/4 left-4"
             >
-              <FiChevronLeft className="text-6xl" />
+              <FiChevronLeft className="text-4xl" />
             </IconButton>
           )}
           nextArrow={({ handleNext }) => (
@@ -44,13 +44,13 @@ export default function Testimonials() {
               onClick={handleNext}
               className="!absolute top-2/4 -translate-y-2/4 !right-4"
             >
-              <FiChevronRight className="text-6xl" />
+              <FiChevronRight className="text-4xl" />
             </IconButton>
           )}
           autoplay={true}
           autoplayDelay={3000}
           loop={true}
-          className="rounded-xl -z-10 pb-10"
+          className="rounded-xl -z-10 sm:pb-10"
         >
           {/* user 1 */}
           <div className=" h-full flex flex-col items-center justify-center w-full">
@@ -97,7 +97,7 @@ export default function Testimonials() {
               <span className="text-lg font-semibold">{name3}</span>
               <span className="text-center text-sm">
                 "The luggage was in pristine condition when i returned from{" "}
-                <br />
+                <br className="hidden sm:block" />
                 home. Thanks!"
               </span>
             </div>

@@ -5,6 +5,7 @@ import { FaQuestion } from "react-icons/fa";
 import { AiFillHome, AiOutlineMenu } from "react-icons/ai";
 import Link from "next/link";
 import { AiFillDollarCircle } from "react-icons/ai";
+import { BiSupport } from "react-icons/bi";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -53,10 +54,10 @@ const Navbar = () => {
             </li>
 
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
-              <Link href="/events">OFFERS</Link>
+              <Link href="/events">PLANS & PRICING</Link>
             </li>
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
-              <Link href="/events">PRICING</Link>
+              <Link href="/events">SUPPORT</Link>
             </li>
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
               <Link href="#">ABOUT</Link>
@@ -105,17 +106,17 @@ const Navbar = () => {
                       href="/events"
                       className="font-extrabold"
                     >
-                      OFFERS
+                      PLANS & PRICING
                     </Link>
                   </li>
                   <li className="flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out">
-                    <AiFillDollarCircle className="text-4xl" />
+                    <BiSupport className="text-4xl" />
                     <Link
                       onClick={() => setOpenMenu(false)}
                       href="/events"
                       className="font-extrabold"
                     >
-                      PRICING
+                      SUPPORT
                     </Link>
                   </li>
 
