@@ -43,18 +43,22 @@ const Navbar = () => {
             </div>
           </Link>
           {/* navigation */}
-          <ul className="hidden sm:flex text-gray-600 font-semibold space-x-8 items-center">
-            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-white">
+          <ul
+            className={`hidden sm:flex text-gray-600 ${
+              scrollY > 0 && "text-orange-500"
+            } font-semibold space-x-8 items-center`}
+          >
+            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
               <Link href="/">HOME</Link>
             </li>
 
-            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-white">
+            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
               <Link href="/events">OFFERS</Link>
             </li>
-            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-white">
+            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
               <Link href="/events">PRICING</Link>
             </li>
-            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-white">
+            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
               <Link href="#">ABOUT</Link>
             </li>
           </ul>

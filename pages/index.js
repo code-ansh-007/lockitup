@@ -34,8 +34,10 @@ export default function Home() {
   return (
     <>
       <main className="mt-24 mb-[80px] overflow-hidden">
-        <Banner />
-        <Style1 />
+        <div className="">
+          <Banner />
+          <Style1 />
+        </div>
         <Services />
         <WhyUs />
         <Testimonials />
