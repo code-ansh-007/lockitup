@@ -7,6 +7,8 @@ import Link from "next/link";
 import { AiFillDollarCircle } from "react-icons/ai";
 import { BiSupport } from "react-icons/bi";
 import { Link as ScrollLink } from "react-scroll";
+import lock from "@/assets/lock.png";
+import Image from "next/image";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -31,16 +33,17 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`px-4 pl-5 py-6 fixed w-full z-30 md:bg-opacity-10 bg-white md:backdrop-blur-lg ${
+        className={`px-4 pl-5 py-4 fixed w-full z-30 md:bg-opacity-10 bg-white md:backdrop-blur-lg ${
           scrollY > 100 ? "shadow-lg" : null
         }  top-0`}
       >
         <section className="flex items-center justify-between">
           {/* logo div */}
           <Link href="/">
-            <div>
+            <div className="flex items-center space-x-2 sm:space-x-0">
+              <Image src={lock} width={40} />
               <span className=" text-orange-500 text-2xl sm:px-2 py-1 font-bold">
-                <span className="text-black">LockIt</span>Up
+                <span className="text-[#335264]">LockIt</span>Up
               </span>
             </div>
           </Link>
@@ -58,7 +61,15 @@ const Navbar = () => {
               <Link href="/events">PLANS & PRICING</Link>
             </li>
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
-              <Link href="/events">SUPPORT</Link>
+              <ScrollLink
+                className="font-extrabold"
+                onClick={() => setOpenMenu(false)}
+                to="support"
+                smooth={true}
+                duration={1000}
+              >
+                SUPPORT
+              </ScrollLink>{" "}
             </li>
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
               <Link href="#">ABOUT</Link>

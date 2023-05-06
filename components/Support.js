@@ -35,7 +35,7 @@ export const Support = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col px-6 space-y-4"
+          className="flex flex-col px-6 space-y-4 sm:w-[400px]"
         >
           <div className="flex flex-col items-start">
             <label>Name</label>

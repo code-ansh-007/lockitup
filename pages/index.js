@@ -41,13 +41,13 @@ export default function Home() {
         </div>
         <Services />
         <WhyUs />
-        <div>
+        <div className="sm:flex items-start sm:space-x-[100px] sm:mt-10 sm:mb-20">
           <Testimonials />
           <Support />
         </div>
         <button
           onClick={handleUpScroll}
-          className="mr-2 fixed bottom-[140px] right-[18px] sm:right-[50px]"
+          className="mr-2 fixed bottom-[235px] right-[18px] sm:right-[50px]"
         >
           {showButton && <Image src={up} width={50} alt="up arrow" />}
         </button>

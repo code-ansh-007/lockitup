@@ -20,7 +20,7 @@ const WhyUs = () => {
           {!showWhy1 ? (
             <div
               onClick={() => setShowWhy1(!showWhy1)}
-              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-green-400 to-green-700  p-3 rounded-xl sm:w-[250px]"
+              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-green-300 to-green-800  p-3 rounded-xl sm:w-[250px]"
             >
               <Image src={reduction} width={100} alt="money-pic" />
               <span className="text-xl font-bold text-white">Affordable</span>
@@ -28,7 +28,7 @@ const WhyUs = () => {
           ) : (
             <div
               onClick={() => setShowWhy1(!showWhy1)}
-              className="flex flex-col space-y-2 items-center text-center justify-center bg-gradient-to-r from-green-400 to-green-700  p-3 rounded-xl"
+              className="flex flex-col space-y-2 items-center text-center justify-center bg-gradient-to-r from-green-300 to-green-800  p-3 rounded-xl"
             >
               <span className="text-sm font-normal text-white">
                 Our affordable prices are a result of our company's efficient
@@ -39,7 +39,7 @@ const WhyUs = () => {
           {!showWhy2 ? (
             <div
               onClick={() => setShowWhy2(!showWhy2)}
-              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-blue-400 to-blue-700  p-3 rounded-xl sm:w-[250px]"
+              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-blue-200 to-blue-800  p-3 rounded-xl sm:w-[250px]"
             >
               <Image src={cctv} width={100} alt="cctv camera pic" />
               <span className="text-xl font-bold text-white">Security</span>
@@ -47,7 +47,7 @@ const WhyUs = () => {
           ) : (
             <div
               onClick={() => setShowWhy2(!showWhy2)}
-              className="flex flex-col space-y-2 items-center text-center justify-center bg-gradient-to-r from-blue-400 to-blue-700  p-3 rounded-xl"
+              className="flex flex-col space-y-2 items-center text-center justify-center bg-gradient-to-r from-blue-200 to-blue-800  p-3 rounded-xl"
             >
               <span className="text-sm font-normal text-white">
                 We use CCTV technology to enhance security in addition to manual
@@ -58,7 +58,7 @@ const WhyUs = () => {
           {!showWhy3 ? (
             <div
               onClick={() => setShowWhy3(!showWhy3)}
-              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-orange-300 to-orange-600  p-3 rounded-xl sm:w-[250px]"
+              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-orange-200 to-orange-800  p-3 rounded-xl sm:w-[250px]"
             >
               <Image src={hassle} width={100} alt="hassle free transport pic" />
               <span className="text-xl font-bold text-white">Hassle Free</span>
@@ -66,7 +66,7 @@ const WhyUs = () => {
           ) : (
             <div
               onClick={() => setShowWhy3(!showWhy3)}
-              className="flex flex-col space-y-2 justify-center text-center items-center bg-gradient-to-r from-orange-300 to-orange-600  p-3 rounded-xl"
+              className="flex flex-col space-y-2 justify-center text-center items-center bg-gradient-to-r from-orange-200 to-orange-800  p-3 rounded-xl"
             >
               <span className="text-sm font-normal text-white">
                 Our staff's expertise ensures a hassle-free pickup and retrieval
@@ -77,7 +77,7 @@ const WhyUs = () => {
           {!showWhy4 ? (
             <div
               onClick={() => setShowWhy4(!showWhy4)}
-              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-pink-300 to-pink-600  p-3 rounded-xl sm:w-[250px]"
+              className="flex flex-col space-y-2 items-center bg-gradient-to-r from-pink-200 to-pink-700  p-3 rounded-xl sm:w-[250px]"
             >
               <Image src={care} width={100} alt="care of luggage pic" />
               <span className="text-xl font-bold text-white">Care</span>
@@ -85,7 +85,7 @@ const WhyUs = () => {
           ) : (
             <div
               onClick={() => setShowWhy4(!showWhy4)}
-              className="flex flex-col justify-center text-center space-y-2 items-center bg-gradient-to-r from-pink-300 to-pink-600  p-3 rounded-xl"
+              className="flex flex-col justify-center text-center space-y-2 items-center bg-gradient-to-r from-pink-200 to-pink-700  p-3 rounded-xl"
             >
               <span className="text-sm font-normal text-white">
                 We prioritize care by storing your belongings in safe, hygienic
