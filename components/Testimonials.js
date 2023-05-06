@@ -33,7 +33,7 @@ export default function Testimonials() {
               onClick={handlePrev}
               className="!absolute top-2/4 -translate-y-2/4 left-4"
             >
-              <FiChevronLeft className="text-4xl" />
+              {/* <FiChevronLeft className="text-4xl" /> */}
             </IconButton>
           )}
           nextArrow={({ handleNext }) => (
@@ -44,7 +44,7 @@ export default function Testimonials() {
               onClick={handleNext}
               className="!absolute top-2/4 -translate-y-2/4 !right-4"
             >
-              <FiChevronRight className="text-4xl" />
+              {/* <FiChevronRight className="text-4xl" /> */}
             </IconButton>
           )}
           autoplay={true}
