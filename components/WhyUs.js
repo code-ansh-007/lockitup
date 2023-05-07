@@ -16,7 +16,7 @@ const WhyUs = () => {
         <span className="text-3xl font-extrabold text-center text-gray-700">
           <span>Why choose us ?</span>
         </span>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-20 mt-5">
+        <div className="grid grid-cols-2 md::grid-cols-4 gap-4 md:gap-20 mt-5">
           {!showWhy1 ? (
             <div
               onClick={() => setShowWhy1(!showWhy1)}
@@ -80,7 +80,9 @@ const WhyUs = () => {
               className="flex flex-col space-y-2 items-center bg-gradient-to-r from-pink-200 to-pink-700  p-3 rounded-xl sm:w-[250px]"
             >
               <Image src={care} width={100} alt="care of luggage pic" />
-              <span className="text-xl font-bold text-white">Care</span>
+              <span className="text-xl font-bold text-white">
+                Legal Backing
+              </span>
             </div>
           ) : (
             <div
@@ -88,8 +90,8 @@ const WhyUs = () => {
               className="flex flex-col justify-center text-center space-y-2 items-center bg-gradient-to-r from-pink-200 to-pink-700  p-3 rounded-xl"
             >
               <span className="text-sm font-normal text-white">
-                We prioritize care by storing your belongings in safe, hygienic
-                environments to maintain their pristine condition.
+                LockItUp legally backs customers' luggage, ensuring that their
+                belongings are protected from damage.
               </span>
             </div>
           )}

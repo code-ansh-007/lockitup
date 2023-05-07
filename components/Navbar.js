@@ -58,7 +58,7 @@ const Navbar = () => {
             </li>
 
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
-              <Link href="/events">PLANS & PRICING</Link>
+              <Link href="/plans">PLANS & PRICING</Link>
             </li>
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
               <ScrollLink
@@ -100,11 +100,11 @@ const Navbar = () => {
                   >
                     <MdClose className="text-gray-600 text-5xl bg-transparent" />
                   </div>
-                  <li className="bg-transparent ml-8 flex active:scale-105 items-center space-x-3 transition transform duration-400 ease-in-out">
-                    <AiFillHome className="text-3xl" />
+                  <li className="bg-transparent ml-8 flex active:scale-105 items-start space-x-3 transition transform duration-400 ease-in-out">
+                    <AiFillHome className="text-2xl" />
                     <Link
                       onClick={() => setOpenMenu(false)}
-                      className="bg-inherit font-extrabold"
+                      className="bg-inherit font-extrabold text-lg"
                       href="/"
                     >
                       HOME
@@ -112,22 +112,20 @@ const Navbar = () => {
                   </li>
 
                   <li className="flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out">
-                    <AiFillDollarCircle className="text-4xl" />
+                    <AiFillDollarCircle className="text-3xl" />
                     <Link
                       onClick={() => setOpenMenu(false)}
-                      href="/events"
-                      className="font-extrabold"
+                      href="/plans"
+                      className="font-extrabold text-lg"
                     >
                       PLANS & PRICING
                     </Link>
                   </li>
                   <li className="flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out">
-                    <BiSupport className="text-4xl" />
-                    {/* <Link onClick={() => setOpenMenu(false)} href="/events">
-                      SUPPORT
-                    </Link> */}
+                    <BiSupport className="text-3xl" />
+
                     <ScrollLink
-                      className="font-extrabold"
+                      className="font-extrabold text-lg"
                       onClick={() => setOpenMenu(false)}
                       to="support"
                       smooth={true}
@@ -138,10 +136,10 @@ const Navbar = () => {
                   </li>
 
                   <li className="bg-transparent flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out">
-                    <FaQuestion className="text-3xl" />
+                    <FaQuestion className="text-2xl" />
                     <Link
                       onClick={() => setOpenMenu(false)}
-                      className="bg-inherit font-extrabold"
+                      className="bg-inherit font-extrabold text-lg"
                       href="#"
                     >
                       ABOUT
