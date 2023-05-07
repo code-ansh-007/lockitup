@@ -59,7 +59,7 @@ const Plans = () => {
                       <span className="text-sm text-center">Bucket</span>
                     </div>
                   </td>
-                  <td className="border-2 p-2 text-center">1</td>
+                  <td className="border-2 p-2 text-center">2</td>
                 </tr>
                 <tr>
                   <td className="border-2 p-2">
