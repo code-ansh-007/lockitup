@@ -28,9 +28,9 @@ function Footer() {
               <span>Rama Mandi</span>
             </div>
             <div className="flex items-center flex-col">
+              <span>Maheru</span>
               <span>Hradaspur</span>
-              <span>Boys Hostel</span>
-              <span>Girls Hostel</span>
+              <span>LPU Hostels</span>
             </div>
           </div>
         </div>

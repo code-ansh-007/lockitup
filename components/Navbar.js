@@ -73,7 +73,7 @@ const Navbar = () => {
               </ScrollLink>{" "}
             </li>
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
-              <Link href="#">ABOUT</Link>
+              <Link href="/about">ABOUT</Link>
             </li>
           </ul>
           {/*mobile menu section */}
@@ -146,7 +146,7 @@ const Navbar = () => {
                     <Link
                       onClick={() => setOpenMenu(false)}
                       className="bg-inherit font-extrabold text-lg"
-                      href="#"
+                      href="/about"
                     >
                       ABOUT
                     </Link>
