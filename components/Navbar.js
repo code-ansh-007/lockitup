@@ -9,15 +9,12 @@ import { BiSupport } from "react-icons/bi";
 import { Link as ScrollLink } from "react-scroll";
 import lock from "@/assets/lock.png";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const [scrollY, setScrollY] = useState(0);
-
-  //  ? temporary
-
-  const user = true;
-  const role = "admin";
+  const router = useRouter();
 
   useEffect(() => {
     function handleScroll() {
@@ -60,7 +57,11 @@ const Navbar = () => {
             <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
               <Link href="/plans">PLANS & PRICING</Link>
             </li>
-            <li className=" hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600">
+            <li
+              className={`${
+                router.pathname === "/plans" && "hidden"
+              } hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600`}
+            >
               <ScrollLink
                 className="font-extrabold"
                 onClick={() => setOpenMenu(false)}
@@ -121,7 +122,12 @@ const Navbar = () => {
                       PLANS & PRICING
                     </Link>
                   </li>
-                  <li className="flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out">
+
+                  <li
+                    className={`${
+                      router.pathname === "/plans" && "hidden"
+                    } flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out`}
+                  >
                     <BiSupport className="text-3xl" />
 
                     <ScrollLink
