@@ -16,7 +16,7 @@ const WhyUs = () => {
         <span className="text-3xl font-extrabold text-center text-gray-700">
           <span>Why choose us ?</span>
         </span>
-        <div className="grid grid-cols-2 md::grid-cols-4 gap-4 md:gap-20 mt-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-20 mt-5">
           {!showWhy1 ? (
             <div
               onClick={() => setShowWhy1(!showWhy1)}
