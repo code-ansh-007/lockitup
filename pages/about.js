@@ -61,7 +61,7 @@ const About = () => {
 
         <div className="mt-10 flex flex-col items-center space-y-5">
           <span className="text-2xl font-bold">All In All</span>
-          <span className="text-xl">
+          <span className="text-xl text-center">
             {" "}
             Why pay 2 months rent, when you can{" "}
             <span className=" text-orange-500 text-2xl sm:px-2 py-1 font-bold">
