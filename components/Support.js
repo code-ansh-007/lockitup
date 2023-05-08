@@ -44,6 +44,7 @@ export const Support = () => {
               name="user_name"
               className="w-full border-[2px] border-gray-300 rounded-lg h-10 outline-none px-2 p-1"
               placeholder="e.g. John Doe"
+              required
             />
           </div>
           <div className="flex flex-col items-start">
@@ -53,6 +54,7 @@ export const Support = () => {
               name="user_email"
               className="w-full border-[2px] border-gray-300 rounded-lg h-10 outline-none px-2 p-1"
               placeholder="e.g. johndoe@example.com"
+              required
             />
           </div>
           <div className="flex flex-col items-start">
@@ -62,6 +64,7 @@ export const Support = () => {
               rows="4"
               className="w-full border-[2px] border-gray-300 rounded-lg resize-none outline-none px-2 p-1"
               placeholder="e.g. what is my luggage tracking ID"
+              required
             />
           </div>
           <input
