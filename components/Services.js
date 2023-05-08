@@ -67,7 +67,7 @@ const Services = () => {
           {!showF1 ? (
             <span className="">Door to Door pickup service</span>
           ) : (
-            <span className="text-sm font-normal">
+            <span className="text-sm font-normal ">
               We provide door to door pickup and drop service, we collect your
               stuff with relevant transport
             </span>
@@ -77,12 +77,12 @@ const Services = () => {
         <motion.div
           animate={animation2}
           onClick={() => setShowF2(!showF2)}
-          className="bg-gradient-to-r text-white sm:text-3xl text-2xl font-bold from-yellow-400 to-yellow-900 flex items-center p-5 rounded-r-2xl space-x-12 justify-between"
+          className="bg-gradient-to-r text-white sm:text-3xl text-2xl font-bold from-green-300 to-green-900 flex items-center p-5 rounded-r-2xl space-x-12 justify-between"
         >
           {!showF2 ? (
             <span className="text-right">Safe and Secure</span>
           ) : (
-            <span className="text-sm text-left font-normal">
+            <span className="text-sm font-normal">
               The safety of your belongings is of utmost priority to us, so we
               enforce strict security rules
             </span>
