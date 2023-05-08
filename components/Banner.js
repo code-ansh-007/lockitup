@@ -14,12 +14,12 @@ const Banner = () => {
           </span>
           <div className="w-full flex items-center space-x-4 sm:space-x-8">
             <Link href="/plans">
-              <button className=" w-fit hover:scale-105 transition transform duration-300 ease-in-out active:scale-105 bg-gradient-to-r p-2 text-lg text-white font-bold rounded-lg from-orange-300 to-orange-800">
+              <button className=" w-fit hover:scale-105 transition transform duration-300 ease-in-out active:scale-105 bg-gradient-to-r p-2 text-normal sm:text-lg text-white font-bold rounded-lg from-orange-300 to-orange-800">
                 Browse Plans
               </button>
             </Link>
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdjSCIUCN-4Rya7aPI9GAMIbm0-kX065i1G4GINan1ILYtD0w/viewform">
-              <button className="w-fit hover:scale-105 transition transform duration-300 ease-in-out active:scale-105 bg-gradient-to-r p-2 text-lg text-white font-bold rounded-lg from-green-500 to-green-800">
+              <button className="w-fit hover:scale-105 transition transform duration-300 ease-in-out active:scale-105 bg-gradient-to-r p-2 text-normal sm:text-lg text-white font-bold rounded-lg from-green-500 to-green-800">
                 Book Slot Now
               </button>
             </Link>
