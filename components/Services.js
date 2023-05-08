@@ -61,7 +61,7 @@ const Services = () => {
         <motion.div
           animate={animation1}
           onClick={() => setShowF1(!showF1)}
-          className="bg-gradient-to-l text-white sm:text-3xl text-2xl font-bold from-orange-300 to-orange-600 flex items-center  p-5 rounded-l-2xl space-x-12"
+          className="bg-gradient-to-l text-white sm:text-3xl text-xl font-bold from-orange-300 to-orange-600 flex items-center  p-5 rounded-l-2xl space-x-12"
         >
           <Image src={pickup} width={100} alt="pickup service" />
           {!showF1 ? (
@@ -77,7 +77,7 @@ const Services = () => {
         <motion.div
           animate={animation2}
           onClick={() => setShowF2(!showF2)}
-          className="bg-gradient-to-r text-white sm:text-3xl text-2xl font-bold from-yellow-400 to-yellow-900 flex items-center p-5 rounded-r-2xl space-x-12 justify-between"
+          className="bg-gradient-to-r text-white sm:text-3xl text-xl font-bold from-yellow-400 to-yellow-900 flex items-center p-5 rounded-r-2xl space-x-12 justify-between"
         >
           {!showF2 ? (
             <span className="text-right">Safe and Secure</span>
@@ -93,7 +93,7 @@ const Services = () => {
         <motion.div
           animate={animation1}
           onClick={() => setShowF3(!showF3)}
-          className="bg-gradient-to-l text-white sm:text-3xl text-2xl font-bold from-pink-300 to-pink-600 flex items-center p-5 rounded-l-2xl space-x-7"
+          className="bg-gradient-to-l text-white sm:text-3xl text-xl font-bold from-pink-300 to-pink-600 flex items-center p-5 rounded-l-2xl space-x-7"
         >
           <Image src={qr} width={100} alt="qr code feature" />
           {!showF3 ? (
