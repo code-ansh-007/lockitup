@@ -2,10 +2,14 @@ import React from "react";
 import confusion from "@/assets/confusion.png";
 import lock from "@/assets/lock.png";
 import Image from "next/image";
+import Head from "next/head";
 
 const About = () => {
   return (
     <>
+      <Head>
+        <title>LockItUp - About</title>
+      </Head>
       <main className=" mt-[80px] px-6 flex flex-col items-center pb-10">
         <div className="relative">
           <div className="flex items-center mt-[100px] md:mt-[130px]">

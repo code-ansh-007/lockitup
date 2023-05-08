@@ -12,10 +12,18 @@ import blanket from "@/assets/blanket.png";
 import misc from "@/assets/misc.png";
 import discount from "@/assets/discount.png";
 import group from "@/assets/group.png";
+import PlanModal from "@/components/PlanModal";
+import { modalState } from "@/recoil/modalAtom";
+import { useRecoilState } from "recoil";
+import Head from "next/head";
 
 const Plans = () => {
+  const [showModal, setShowModal] = useRecoilState(modalState);
   return (
     <>
+      <Head>
+        <title>LockItUp - Plans</title>
+      </Head>
       <main className="mt-[80px] px-6 flex flex-col items-center">
         <span className="text-3xl font-extrabold text-center text-gray-700">
           <span>Our Plans</span>
@@ -85,7 +93,10 @@ const Plans = () => {
               <span className="text-right text-lg text-white">
                 Total: ₹450/month
               </span>
-              <button className="bg-green-400 py-2 px-2 text-white font-semibold rounded-lg shadow-md">
+              <button
+                onClick={() => setShowModal(true)}
+                className="bg-green-400 active:scale-105 transition transform duration-300 py-2 px-2 text-white font-semibold rounded-lg shadow-md"
+              >
                 Browse Catalog
               </button>
             </div>
@@ -105,7 +116,10 @@ const Plans = () => {
                 </span>
               </span>
             </div>
-            <button className="bg-green-400 px-6 py-2 text-white font-semibold rounded-lg shadow-md">
+            <button
+              onClick={() => setShowModal(true)}
+              className="bg-green-400 active:scale-105 transition transform duration-300 px-6 py-2 text-white font-semibold rounded-lg shadow-md"
+            >
               Browse Catalog{" "}
             </button>{" "}
           </div>
@@ -218,12 +232,16 @@ const Plans = () => {
                 </tr>
               </tbody>
             </table>
-            <button className="bg-green-400 px-6 py-2 text-white font-semibold rounded-lg shadow-md">
+            <button
+              onClick={() => setShowModal(true)}
+              className="bg-green-400 active:scale-105 transition transform duration-300 px-6 py-2 text-white font-semibold rounded-lg shadow-md"
+            >
               Browse Catalog{" "}
             </button>{" "}
           </div>
         </div>
       </main>
+      {showModal && <PlanModal />}
     </>
   );
 };

@@ -59,7 +59,8 @@ const Navbar = () => {
             </li>
             <li
               className={`${
-                router.pathname === "/plans" && "hidden"
+                router.pathname === "/plans" ||
+                (router.pathname === "/about" && "hidden")
               } hover:scale-105 transition transform duration-400 ease-in-out hover:text-gray-600`}
             >
               <ScrollLink
@@ -125,7 +126,8 @@ const Navbar = () => {
 
                   <li
                     className={`${
-                      router.pathname === "/plans" && "hidden"
+                      router.pathname === "/plans" ||
+                      (router.pathname === "/about" && "hidden")
                     } flex items-center space-x-3 active:scale-105 transition transform duration-400 ease-in-out`}
                   >
                     <BiSupport className="text-3xl" />

@@ -12,11 +12,9 @@ function Footer() {
       {/* contact and locations section section */}
       <div className="flex items-start space-x-10 my-4">
         <div className="flex flex-col items-center">
-          <span className="text-lg underline">Contact No.s</span>
+          <span className="text-lg underline">Contact No.</span>
           <div className="flex flex-col text-sm">
-            <span>+91 7002515140</span>
-            <span>+91 8437676677</span>
-            <span>+91 8307203818</span>
+            <span>+91 6283951755</span>
           </div>
         </div>
         <div className="flex flex-col items-center">

@@ -7,6 +7,7 @@ import WhyUs from "@/components/WhyUs";
 import { useEffect, useState } from "react";
 import Testimonials from "@/components/Testimonials";
 import { Support } from "@/components/Support";
+import Head from "next/head";
 
 export default function Home() {
   // ? showing button after a certain scroll point in the y axis
@@ -34,6 +35,9 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>LockItUp</title>
+      </Head>
       <main className="mt-24 mb-[80px] sm:mb-0 overflow-hidden sm:flex flex-col items-center">
         <Banner />
         <div className="sm:hidden">

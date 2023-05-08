@@ -1,22 +1,11 @@
-import {
-  Button,
-  Carousel,
-  IconButton,
-  Typography,
-} from "@material-tailwind/react";
-import { faker } from "@faker-js/faker";
+import { Carousel, IconButton } from "@material-tailwind/react";
 import Image from "next/image";
-import { FiChevronRight } from "react-icons/fi";
-import { FiChevronLeft } from "react-icons/fi";
+
+import praful from "@/assets/praful.jpeg";
+import vivek from "@/assets/vivek.jpeg";
+import saurav from "@/assets/saurav.jpeg";
 
 export default function Testimonials() {
-  const pic1 = faker.internet.avatar();
-  const pic2 = faker.internet.avatar();
-  const pic3 = faker.internet.avatar();
-  const name1 = faker.name.fullName();
-  const name2 = faker.name.fullName();
-  const name3 = faker.name.fullName();
-
   return (
     <>
       <main className="mt-10 flex flex-col items-center space-y-5 px-5">
@@ -56,13 +45,13 @@ export default function Testimonials() {
           <div className=" h-full flex flex-col items-center justify-center w-full">
             <div className="bg-black bg-opacity-10 shadow-md flex flex-col items-center p-8 rounded-xl space-y-2">
               <Image
-                src={pic1}
+                src={praful}
                 width={100}
                 height={100}
                 alt="user-pic"
                 className="rounded-full"
               />
-              <span className="text-lg font-semibold">{name1}</span>
+              <span className="text-lg font-semibold">Praful Kumar Reddy</span>
               <span className="text-center text-sm">
                 "From pickup to baggage retrieval, everything went smooth"
               </span>
@@ -72,13 +61,13 @@ export default function Testimonials() {
           <div className=" h-full flex flex-col items-center justify-center w-full">
             <div className="bg-black bg-opacity-10 shadow-md flex flex-col items-center p-8 rounded-xl space-y-2">
               <Image
-                src={pic2}
+                src={vivek}
                 width={100}
                 height={100}
                 alt="user-pic"
                 className="rounded-full"
               />
-              <span className="text-lg font-semibold">{name2}</span>
+              <span className="text-lg font-semibold">Vivek Kumar Sahoo</span>
               <span className="text-center text-sm">
                 "They offer top-notch service at an affordable price."
               </span>
@@ -88,13 +77,13 @@ export default function Testimonials() {
           <div className=" h-full flex flex-col items-center justify-center w-full">
             <div className="bg-black bg-opacity-10 shadow-md flex flex-col items-center p-8 rounded-xl space-y-2">
               <Image
-                src={pic3}
+                src={saurav}
                 width={100}
                 height={100}
                 alt="user-pic"
                 className="rounded-full"
               />
-              <span className="text-lg font-semibold">{name3}</span>
+              <span className="text-lg font-semibold">Saurav Aryan</span>
               <span className="text-center text-sm">
                 "The luggage was in pristine condition when i returned from{" "}
                 <br className="hidden sm:block" />
