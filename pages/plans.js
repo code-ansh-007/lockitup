@@ -90,7 +90,7 @@ const Plans = () => {
               </tbody>
             </table>
             <div className="flex items-center space-x-6 mt-5">
-              <span className="text-right text-lg text-white">
+              <span className="text-right text-normal text-white">
                 Total: ₹450/month
               </span>
               <button
