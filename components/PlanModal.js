@@ -1,5 +1,6 @@
 import { modalState } from "@/recoil/modalAtom";
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 import { useRecoilState } from "recoil";
 
@@ -28,12 +29,14 @@ const PlanModal = () => {
             We will open the catalog payment portal on 21st May, you can pay for
             the plan then.
           </span>
-          <button
-            onClick={() => setOpenModal(false)}
-            className="bg-red-400 outline-none text-white w-full p-1 rounded-md"
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdjSCIUCN-4Rya7aPI9GAMIbm0-kX065i1G4GINan1ILYtD0w/viewform"
+            className="w-full"
           >
-            Close
-          </button>
+            <button className="bg-green-500 outline-none text-white w-full p-1 rounded-md">
+              Book Slot
+            </button>
+          </Link>
         </div>
       </main>
     </>
