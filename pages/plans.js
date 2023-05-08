@@ -24,7 +24,7 @@ const Plans = () => {
       <Head>
         <title>LockItUp - Plans</title>
       </Head>
-      <main className="mt-[80px] px-6 flex flex-col items-center">
+      <main className="mt-[80px] px-6 flex flex-col items-center text-white">
         <span className="text-3xl font-extrabold text-center text-gray-700">
           <span>Our Plans</span>
         </span>
