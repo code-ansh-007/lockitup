@@ -28,14 +28,14 @@ export const Support = () => {
 
   return (
     <Element name="support" id="support">
-      <main className="flex flex-col mt-10 space-y-4">
+      <main className="flex flex-col mt-10 space-y-4 items-center">
         <span className="text-3xl font-extrabold text-center text-gray-700">
           <span>Contact Support</span>
         </span>{" "}
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col px-6 space-y-4 sm:w-[400px]"
+          className="flex flex-col px-6 space-y-4 sm:w-[400px] w-full"
         >
           <div className="flex flex-col items-start">
             <label>Name</label>

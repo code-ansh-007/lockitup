@@ -45,7 +45,7 @@ export default function Home() {
         </div>
         <Services />
         <WhyUs />
-        <div className="sm:flex items-start sm:space-x-[100px] sm:mt-10 sm:mb-20">
+        <div className="lg:flex lg:items-start sm:mt-10 sm:mb-20">
           <Testimonials />
           <Support />
         </div>
