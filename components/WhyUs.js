@@ -80,9 +80,7 @@ const WhyUs = () => {
               className="flex flex-col space-y-2 items-center bg-gradient-to-r from-pink-200 to-pink-700  p-3 rounded-xl sm:w-[250px]"
             >
               <Image src={care} width={100} alt="care of luggage pic" />
-              <span className="text-xl font-bold text-white">
-                Legal Backing
-              </span>
+              <span className="text-xl font-bold text-white">Legal Bond</span>
             </div>
           ) : (
             <div
