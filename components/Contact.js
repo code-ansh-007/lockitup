@@ -12,7 +12,7 @@ const Contact = () => {
             Any Queries
           </span>
           <Link href="https://wa.me/+916283951755">
-            <button className="bg-white active:scale-105 transition transform duration-300 text-green-300 p-1 px-4 rounded-lg text-lg">
+            <button className="bg-white active:scale-105 transition transform duration-300 text-green-300 p-1 px-4 rounded-lg text-lg font-bold">
               Open WhatsApp
             </button>
           </Link>{" "}
