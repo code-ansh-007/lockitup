@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import Testimonials from "@/components/Testimonials";
 import { Support } from "@/components/Support";
 import Head from "next/head";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   // ? showing button after a certain scroll point in the y axis
@@ -43,6 +44,7 @@ export default function Home() {
         <div className="sm:hidden">
           <Style1 />
         </div>
+        {/* <Contact /> */}
         <Services />
         <WhyUs />
         <div className="lg:flex lg:items-start sm:mt-10 sm:mb-20">

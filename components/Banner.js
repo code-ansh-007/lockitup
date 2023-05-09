@@ -2,6 +2,7 @@ import React from "react";
 import trolley from "@/assets/trolley.png";
 import Image from "next/image";
 import Link from "next/link";
+import Contact from "./Contact";
 const Banner = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const Banner = () => {
           <Image src={trolley} width={300} />
         </div>
       </main>
+      <Contact />
     </>
   );
 };
