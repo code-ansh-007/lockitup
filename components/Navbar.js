@@ -70,6 +70,7 @@ const Navbar = () => {
                 to="support"
                 smooth={true}
                 duration={1000}
+                offset={-70}
               >
                 SUPPORT
               </ScrollLink>{" "}
@@ -141,6 +142,7 @@ const Navbar = () => {
                       to="support"
                       smooth={true}
                       duration={1000}
+                      offset={-100}
                     >
                       SUPPORT
                     </ScrollLink>
